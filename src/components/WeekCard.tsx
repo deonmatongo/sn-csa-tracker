@@ -135,6 +135,13 @@ export default function WeekCard({ week, weekIndex, tasks, onToggle, hydrated }:
                           ))}
                         </span>
                       )}
+                      {task.duration && task.duration !== '—' && (
+                        <div className="mt-1 inline-flex items-center gap-1">
+                          <span className="text-[10px] font-mono text-[#4a5e7a] bg-[#1a2236] border border-[#2a3f5c] rounded px-1.5 py-px tracking-wide">
+                            ⏱ {task.duration}
+                          </span>
+                        </div>
+                      )}
                       {task.links.length > 0 && (
                         <div className="flex flex-wrap gap-1.5 mt-1.5" onClick={(e) => e.stopPropagation()}>
                           {task.links.map((link) => (

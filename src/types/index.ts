@@ -7,6 +7,7 @@ export type TaskTag = 'hands' | 'key' | 'mock' | 'free';
 
 export interface Task {
   text: string;
+  duration: string;
   tags: TaskTag[];
   links: TaskLink[];
 }

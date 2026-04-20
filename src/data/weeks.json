@@ -11,6 +11,7 @@
         "tasks": [
           {
             "text": "Create ServiceNow developer account & provision PDI instance",
+            "duration": "30 min",
             "tags": ["hands", "free"],
             "links": [
               { "label": "Create dev account", "url": "https://developer.servicenow.com/" },
@@ -19,6 +20,7 @@
           },
           {
             "text": "Enrol in Now Learning: Admin Fundamentals on-demand (free)",
+            "duration": "20 min",
             "tags": ["free"],
             "links": [
               { "label": "Enrol now", "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/servicenow-administration-fundamentals-on-demand?id=learning_course_prev&course_id=91e2630b47503d5890542034846d43ac" }
@@ -26,6 +28,7 @@
           },
           {
             "text": "Navigate the UI: modules, lists, forms, global search in PDI",
+            "duration": "45 min",
             "tags": ["hands"],
             "links": [
               { "label": "UI navigation docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-user-interface/page/get-started/navigating/concept/navigating-ui.html" }
@@ -38,6 +41,7 @@
         "tasks": [
           {
             "text": "Now Learning modules 2–3: user administration",
+            "duration": "60 min",
             "tags": ["free"],
             "links": [
               { "label": "Now Learning", "url": "https://nowlearning.servicenow.com" }
@@ -45,6 +49,7 @@
           },
           {
             "text": "Create users, groups, assign roles in your PDI",
+            "duration": "45 min",
             "tags": ["hands"],
             "links": [
               { "label": "Users & groups docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/users-and-groups/concept/c_UsersAndGroups.html" }
@@ -52,6 +57,7 @@
           },
           {
             "text": "Study Access Control Lists (ACLs) — most-failed exam topic",
+            "duration": "60 min",
             "tags": ["key"],
             "links": [
               { "label": "ACL docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/contextual-security/concept/access-control-rules.html" }
@@ -64,6 +70,7 @@
         "tasks": [
           {
             "text": "Now Learning: data model, tables and records",
+            "duration": "45 min",
             "tags": ["free"],
             "links": [
               { "label": "Now Learning", "url": "https://nowlearning.servicenow.com" }
@@ -71,6 +78,7 @@
           },
           {
             "text": "Review week 1 notes — identify 3 things still unclear",
+            "duration": "30 min",
             "tags": [],
             "links": []
           }
@@ -81,6 +89,7 @@
         "tasks": [
           {
             "text": "Hands-on: build ACL rules in PDI, test with different user roles",
+            "duration": "90 min",
             "tags": ["hands", "key"],
             "links": [
               { "label": "ACL practice guide", "url": "https://developer.servicenow.com/blog.do?p=/post/acl-examples/" }
@@ -88,6 +97,7 @@
           },
           {
             "text": "Mini-quiz: 20 UI + Collaboration questions on SkillCertPro",
+            "duration": "30 min",
             "tags": ["mock"],
             "links": [
               { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
@@ -95,6 +105,7 @@
           },
           {
             "text": "Complete any remaining Now Learning modules from the week",
+            "duration": "60 min",
             "tags": ["free"],
             "links": [
               { "label": "Now Learning", "url": "https://nowlearning.servicenow.com" }
@@ -116,6 +127,7 @@
         "tasks": [
           {
             "text": "Email notifications: create one from scratch in PDI",
+            "duration": "45 min",
             "tags": ["hands"],
             "links": [
               { "label": "Notifications docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/administer/notification/concept/c_Notifications.html" }
@@ -123,6 +135,7 @@
           },
           {
             "text": "Inbound email actions, subscriptions, on-call schedules",
+            "duration": "45 min",
             "tags": [],
             "links": [
               { "label": "Inbound email docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/notification/concept/c_InboundEmailActions.html" }
@@ -130,6 +143,7 @@
           },
           {
             "text": "Service catalog: create a catalog item with variables in PDI",
+            "duration": "60 min",
             "tags": ["hands"],
             "links": [
               { "label": "Service catalog docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/service-catalog-management/concept/c_ServiceCatalogManagement.html" }
@@ -142,6 +156,7 @@
         "tasks": [
           {
             "text": "Database admin: schema map, table relationships, extending tables",
+            "duration": "60 min",
             "tags": ["key"],
             "links": [
               { "label": "Tables & schema docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/table-administration/concept/c_TableAdministration.html" }
@@ -149,6 +164,7 @@
           },
           {
             "text": "Import sets: upload CSV, create transform map, run import in PDI",
+            "duration": "90 min",
             "tags": ["hands", "key"],
             "links": [
               { "label": "Import sets docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_ImportSets.html" }
@@ -156,6 +172,7 @@
           },
           {
             "text": "CMDB: CI classes, relationships, and discovery basics",
+            "duration": "60 min",
             "tags": ["key"],
             "links": [
               { "label": "CMDB docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-operations-management/page/product/configuration-management/concept/c_ITILConfigurationManagement.html" }
@@ -168,6 +185,7 @@
         "tasks": [
           {
             "text": "Data dictionary: field types, mandatory fields, dictionary overrides",
+            "duration": "45 min",
             "tags": [],
             "links": [
               { "label": "Data dictionary docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/field-administration/concept/c_FieldAdministration.html" }
@@ -175,6 +193,7 @@
           },
           {
             "text": "Review import sets + CMDB — re-read docs for anything still unclear",
+            "duration": "45 min",
             "tags": ["key"],
             "links": [
               { "label": "Import sets docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_ImportSets.html" }
@@ -187,6 +206,7 @@
         "tasks": [
           {
             "text": "Full mock exam — domains 1–3 only (40 questions, 45 min)",
+            "duration": "90 min",
             "tags": ["mock"],
             "links": [
               { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
@@ -194,6 +214,7 @@
           },
           {
             "text": "Hands-on: build a second import set with error handling",
+            "duration": "60 min",
             "tags": ["hands"],
             "links": [
               { "label": "Transform scripts docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_TransformMaps.html" }
@@ -201,6 +222,7 @@
           },
           {
             "text": "Review every wrong mock answer against official docs",
+            "duration": "45 min",
             "tags": [],
             "links": [
               { "label": "ServiceNow docs", "url": "https://docs.servicenow.com" }
@@ -222,6 +244,7 @@
         "tasks": [
           {
             "text": "Self-service: Service Portal, knowledge base, surveys",
+            "duration": "45 min",
             "tags": [],
             "links": [
               { "label": "Service Portal docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-user-interface/page/build/service-portal/concept/c_ServicePortal.html" },
@@ -230,6 +253,7 @@
           },
           {
             "text": "SLAs: create a basic SLA definition and apply to incidents in PDI",
+            "duration": "60 min",
             "tags": ["hands", "key"],
             "links": [
               { "label": "SLA docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/service-level-management/concept/c_ServiceLevelManagement.html" }
@@ -237,6 +261,7 @@
           },
           {
             "text": "Escalations and assignment rules — configure in PDI",
+            "duration": "45 min",
             "tags": ["hands"],
             "links": [
               { "label": "Assignment rules docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/managing-data/concept/c_AssignmentRules.html" }
@@ -249,6 +274,7 @@
         "tasks": [
           {
             "text": "Flow Designer: build a multi-step approval flow in PDI",
+            "duration": "90 min",
             "tags": ["hands"],
             "links": [
               { "label": "Flow Designer docs", "url": "https://docs.servicenow.com/bundle/washingtondc-build-workflows/page/administer/flow-designer/concept/flow-designer.html" },
@@ -257,6 +283,7 @@
           },
           {
             "text": "Business rules: create before/after/async rules in PDI",
+            "duration": "60 min",
             "tags": ["hands"],
             "links": [
               { "label": "Business rules docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/script/business-rules/concept/c_BusinessRules.html" }
@@ -264,6 +291,7 @@
           },
           {
             "text": "Script includes: understand when and why to use them",
+            "duration": "30 min",
             "tags": [],
             "links": [
               { "label": "Script includes docs", "url": "https://docs.servicenow.com/bundle/washingtondc-application-development/page/script/server-scripting/concept/c_ScriptIncludes.html" }
@@ -276,6 +304,7 @@
         "tasks": [
           {
             "text": "Update sets: create, populate, export and import between instances",
+            "duration": "60 min",
             "tags": ["hands", "key"],
             "links": [
               { "label": "Update sets docs", "url": "https://docs.servicenow.com/bundle/washingtondc-application-development/page/build/system-update-sets/concept/c_SystemUpdateSets.html" }
@@ -283,6 +312,7 @@
           },
           {
             "text": "Instance security: high-security plugin, security audit",
+            "duration": "30 min",
             "tags": [],
             "links": [
               { "label": "Security docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/security/concept/c_Security.html" }
@@ -295,6 +325,7 @@
         "tasks": [
           {
             "text": "Full mock exam — all 5 domains, 60 questions, 90 min timed",
+            "duration": "90 min",
             "tags": ["mock"],
             "links": [
               { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
@@ -302,11 +333,13 @@
           },
           {
             "text": "Target 70%+ on mock — confirms you're on track",
+            "duration": "—",
             "tags": ["mock"],
             "links": []
           },
           {
             "text": "Deep-dive any domain scoring below 65% from results",
+            "duration": "90 min",
             "tags": ["key"],
             "links": [
               { "label": "CSA exam blueprint", "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" }
@@ -328,6 +361,7 @@
         "tasks": [
           {
             "text": "Book exam via Now Learning portal for Thu or Fri of this week",
+            "duration": "15 min",
             "tags": ["key"],
             "links": [
               { "label": "Book exam — Now Learning", "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" },
@@ -336,6 +370,7 @@
           },
           {
             "text": "Full mock exam #2 — target 80%+ before proceeding",
+            "duration": "2 h",
             "tags": ["mock"],
             "links": [
               { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
@@ -343,6 +378,7 @@
           },
           {
             "text": "List every topic below 70% from mock — that becomes your hit list",
+            "duration": "15 min",
             "tags": [],
             "links": []
           }
@@ -353,6 +389,7 @@
         "tasks": [
           {
             "text": "Hit list deep-dive: ACLs, import sets, SLAs, CMDB — read docs for each",
+            "duration": "2 h",
             "tags": ["key"],
             "links": [
               { "label": "ACLs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/contextual-security/concept/access-control-rules.html" },
@@ -362,6 +399,7 @@
           },
           {
             "text": "Targeted PDI practice on weak areas only",
+            "duration": "90 min",
             "tags": ["hands"],
             "links": [
               { "label": "PDI portal", "url": "https://developer.servicenow.com/" }
@@ -369,6 +407,7 @@
           },
           {
             "text": "Mock exam #3 — must consistently hit 80%+",
+            "duration": "2 h",
             "tags": ["mock"],
             "links": [
               { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
@@ -381,16 +420,19 @@
         "tasks": [
           {
             "text": "Light review only — no new topics, no heavy studying today",
+            "duration": "30 min",
             "tags": [],
             "links": []
           },
           {
             "text": "30-minute walkthrough of your own summary notes only",
+            "duration": "30 min",
             "tags": [],
             "links": []
           },
           {
             "text": "Run Pearson OnVUE system check: camera, mic, ID, room scan",
+            "duration": "15 min",
             "tags": ["key"],
             "links": [
               { "label": "OnVUE system check", "url": "https://home.pearsonvue.com/Clients/ServiceNow/OnVUE-systems-test.aspx" },
@@ -404,6 +446,7 @@
         "tasks": [
           {
             "text": "Take the CSA exam — 60 questions, 90 minutes, pass at 70% (42/60)",
+            "duration": "90 min",
             "tags": ["key"],
             "links": [
               { "label": "Exam info", "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" }
@@ -411,6 +454,7 @@
           },
           {
             "text": "Remember: closed-book exam — docs.servicenow.com is NOT available",
+            "duration": "—",
             "tags": ["key"],
             "links": []
           }
