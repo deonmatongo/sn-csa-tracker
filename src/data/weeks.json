@@ -1,0 +1,421 @@
+[
+  {
+    "id": 1,
+    "num": "WEEK 01",
+    "colorKey": "w1",
+    "title": "Platform fundamentals",
+    "tip": "Set up your PDI on day 1 before anything else — it can take a few hours to provision. The Now Learning course is free. Log into your PDI every day to prevent it being reclaimed after 10 days of inactivity.",
+    "days": [
+      {
+        "label": "MON – TUE",
+        "tasks": [
+          {
+            "text": "Create ServiceNow developer account & provision PDI instance",
+            "tags": ["hands", "free"],
+            "links": [
+              { "label": "Create dev account", "url": "https://developer.servicenow.com/" },
+              { "label": "PDI guide", "url": "https://developer.servicenow.com/print_page.do?release=xanadu&category=developer-program&identifier=accessing-your-pdi&module=guide" }
+            ]
+          },
+          {
+            "text": "Enrol in Now Learning: Admin Fundamentals on-demand (free)",
+            "tags": ["free"],
+            "links": [
+              { "label": "Enrol now", "url": "https://nowlearning.servicenow.com/lxp/en/now-platform/servicenow-administration-fundamentals-on-demand?id=learning_course_prev&course_id=91e2630b47503d5890542034846d43ac" }
+            ]
+          },
+          {
+            "text": "Navigate the UI: modules, lists, forms, global search in PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "UI navigation docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-user-interface/page/get-started/navigating/concept/navigating-ui.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "WED – THU",
+        "tasks": [
+          {
+            "text": "Now Learning modules 2–3: user administration",
+            "tags": ["free"],
+            "links": [
+              { "label": "Now Learning", "url": "https://nowlearning.servicenow.com" }
+            ]
+          },
+          {
+            "text": "Create users, groups, assign roles in your PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Users & groups docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/users-and-groups/concept/c_UsersAndGroups.html" }
+            ]
+          },
+          {
+            "text": "Study Access Control Lists (ACLs) — most-failed exam topic",
+            "tags": ["key"],
+            "links": [
+              { "label": "ACL docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/contextual-security/concept/access-control-rules.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "FRI",
+        "tasks": [
+          {
+            "text": "Now Learning: data model, tables and records",
+            "tags": ["free"],
+            "links": [
+              { "label": "Now Learning", "url": "https://nowlearning.servicenow.com" }
+            ]
+          },
+          {
+            "text": "Review week 1 notes — identify 3 things still unclear",
+            "tags": [],
+            "links": []
+          }
+        ]
+      },
+      {
+        "label": "WEEKEND",
+        "tasks": [
+          {
+            "text": "Hands-on: build ACL rules in PDI, test with different user roles",
+            "tags": ["hands", "key"],
+            "links": [
+              { "label": "ACL practice guide", "url": "https://developer.servicenow.com/blog.do?p=/post/acl-examples/" }
+            ]
+          },
+          {
+            "text": "Mini-quiz: 20 UI + Collaboration questions on SkillCertPro",
+            "tags": ["mock"],
+            "links": [
+              { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
+            ]
+          },
+          {
+            "text": "Complete any remaining Now Learning modules from the week",
+            "tags": ["free"],
+            "links": [
+              { "label": "Now Learning", "url": "https://nowlearning.servicenow.com" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "num": "WEEK 02",
+    "colorKey": "w2",
+    "title": "Collaboration & database admin",
+    "tip": "Database Administration is 30% of the exam — the single biggest domain. Build a real import set in your PDI using a CSV file rather than just reading about it. Import sets and transform maps trip up most candidates.",
+    "days": [
+      {
+        "label": "MON – TUE",
+        "tasks": [
+          {
+            "text": "Email notifications: create one from scratch in PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Notifications docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/administer/notification/concept/c_Notifications.html" }
+            ]
+          },
+          {
+            "text": "Inbound email actions, subscriptions, on-call schedules",
+            "tags": [],
+            "links": [
+              { "label": "Inbound email docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/notification/concept/c_InboundEmailActions.html" }
+            ]
+          },
+          {
+            "text": "Service catalog: create a catalog item with variables in PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Service catalog docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/service-catalog-management/concept/c_ServiceCatalogManagement.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "WED – THU",
+        "tasks": [
+          {
+            "text": "Database admin: schema map, table relationships, extending tables",
+            "tags": ["key"],
+            "links": [
+              { "label": "Tables & schema docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/table-administration/concept/c_TableAdministration.html" }
+            ]
+          },
+          {
+            "text": "Import sets: upload CSV, create transform map, run import in PDI",
+            "tags": ["hands", "key"],
+            "links": [
+              { "label": "Import sets docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_ImportSets.html" }
+            ]
+          },
+          {
+            "text": "CMDB: CI classes, relationships, and discovery basics",
+            "tags": ["key"],
+            "links": [
+              { "label": "CMDB docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-operations-management/page/product/configuration-management/concept/c_ITILConfigurationManagement.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "FRI",
+        "tasks": [
+          {
+            "text": "Data dictionary: field types, mandatory fields, dictionary overrides",
+            "tags": [],
+            "links": [
+              { "label": "Data dictionary docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/field-administration/concept/c_FieldAdministration.html" }
+            ]
+          },
+          {
+            "text": "Review import sets + CMDB — re-read docs for anything still unclear",
+            "tags": ["key"],
+            "links": [
+              { "label": "Import sets docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_ImportSets.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "WEEKEND",
+        "tasks": [
+          {
+            "text": "Full mock exam — domains 1–3 only (40 questions, 45 min)",
+            "tags": ["mock"],
+            "links": [
+              { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
+            ]
+          },
+          {
+            "text": "Hands-on: build a second import set with error handling",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Transform scripts docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_TransformMaps.html" }
+            ]
+          },
+          {
+            "text": "Review every wrong mock answer against official docs",
+            "tags": [],
+            "links": [
+              { "label": "ServiceNow docs", "url": "https://docs.servicenow.com" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "num": "WEEK 03",
+    "colorKey": "w3",
+    "title": "Automation, Flow Designer & scripting",
+    "tip": "Flow Designer has largely replaced the legacy Workflow Editor — the exam tests both. Your web dev background means scripting will feel natural. Focus extra time on SLAs and escalations, which are process-heavy concepts rather than code.",
+    "days": [
+      {
+        "label": "MON – TUE",
+        "tasks": [
+          {
+            "text": "Self-service: Service Portal, knowledge base, surveys",
+            "tags": [],
+            "links": [
+              { "label": "Service Portal docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-user-interface/page/build/service-portal/concept/c_ServicePortal.html" },
+              { "label": "Knowledge base docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/knowledge-management/concept/c_KnowledgeManagement.html" }
+            ]
+          },
+          {
+            "text": "SLAs: create a basic SLA definition and apply to incidents in PDI",
+            "tags": ["hands", "key"],
+            "links": [
+              { "label": "SLA docs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/service-level-management/concept/c_ServiceLevelManagement.html" }
+            ]
+          },
+          {
+            "text": "Escalations and assignment rules — configure in PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Assignment rules docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/managing-data/concept/c_AssignmentRules.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "WED – THU",
+        "tasks": [
+          {
+            "text": "Flow Designer: build a multi-step approval flow in PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Flow Designer docs", "url": "https://docs.servicenow.com/bundle/washingtondc-build-workflows/page/administer/flow-designer/concept/flow-designer.html" },
+              { "label": "Flow Designer guide", "url": "https://developer.servicenow.com/blog.do?p=/post/fd-overview/" }
+            ]
+          },
+          {
+            "text": "Business rules: create before/after/async rules in PDI",
+            "tags": ["hands"],
+            "links": [
+              { "label": "Business rules docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/script/business-rules/concept/c_BusinessRules.html" }
+            ]
+          },
+          {
+            "text": "Script includes: understand when and why to use them",
+            "tags": [],
+            "links": [
+              { "label": "Script includes docs", "url": "https://docs.servicenow.com/bundle/washingtondc-application-development/page/script/server-scripting/concept/c_ScriptIncludes.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "FRI",
+        "tasks": [
+          {
+            "text": "Update sets: create, populate, export and import between instances",
+            "tags": ["hands", "key"],
+            "links": [
+              { "label": "Update sets docs", "url": "https://docs.servicenow.com/bundle/washingtondc-application-development/page/build/system-update-sets/concept/c_SystemUpdateSets.html" }
+            ]
+          },
+          {
+            "text": "Instance security: high-security plugin, security audit",
+            "tags": [],
+            "links": [
+              { "label": "Security docs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/security/concept/c_Security.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "WEEKEND",
+        "tasks": [
+          {
+            "text": "Full mock exam — all 5 domains, 60 questions, 90 min timed",
+            "tags": ["mock"],
+            "links": [
+              { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
+            ]
+          },
+          {
+            "text": "Target 70%+ on mock — confirms you're on track",
+            "tags": ["mock"],
+            "links": []
+          },
+          {
+            "text": "Deep-dive any domain scoring below 65% from results",
+            "tags": ["key"],
+            "links": [
+              { "label": "CSA exam blueprint", "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "num": "WEEK 04",
+    "colorKey": "w4",
+    "title": "Exam prep & certification",
+    "tip": "Book your exam at the start of this week for end of week — the deadline creates useful pressure. CSA is closed-book: docs.servicenow.com is NOT available during the real exam. Ensure your PDI hasn't hibernated before final practice sessions.",
+    "days": [
+      {
+        "label": "MON",
+        "tasks": [
+          {
+            "text": "Book exam via Now Learning portal for Thu or Fri of this week",
+            "tags": ["key"],
+            "links": [
+              { "label": "Book exam — Now Learning", "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" },
+              { "label": "Pearson VUE", "url": "https://www.pearsonvue.com/us/en/servicenow.html" }
+            ]
+          },
+          {
+            "text": "Full mock exam #2 — target 80%+ before proceeding",
+            "tags": ["mock"],
+            "links": [
+              { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
+            ]
+          },
+          {
+            "text": "List every topic below 70% from mock — that becomes your hit list",
+            "tags": [],
+            "links": []
+          }
+        ]
+      },
+      {
+        "label": "TUE – WED",
+        "tasks": [
+          {
+            "text": "Hit list deep-dive: ACLs, import sets, SLAs, CMDB — read docs for each",
+            "tags": ["key"],
+            "links": [
+              { "label": "ACLs", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/contextual-security/concept/access-control-rules.html" },
+              { "label": "Import sets", "url": "https://docs.servicenow.com/bundle/washingtondc-platform-administration/page/administer/import-sets/concept/c_ImportSets.html" },
+              { "label": "SLAs", "url": "https://docs.servicenow.com/bundle/washingtondc-it-service-management/page/product/service-level-management/concept/c_ServiceLevelManagement.html" }
+            ]
+          },
+          {
+            "text": "Targeted PDI practice on weak areas only",
+            "tags": ["hands"],
+            "links": [
+              { "label": "PDI portal", "url": "https://developer.servicenow.com/" }
+            ]
+          },
+          {
+            "text": "Mock exam #3 — must consistently hit 80%+",
+            "tags": ["mock"],
+            "links": [
+              { "label": "SkillCertPro CSA", "url": "https://skillcertpro.com/product/servicenow-csa-admin-exam-questions/" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "THU — DAY BEFORE",
+        "tasks": [
+          {
+            "text": "Light review only — no new topics, no heavy studying today",
+            "tags": [],
+            "links": []
+          },
+          {
+            "text": "30-minute walkthrough of your own summary notes only",
+            "tags": [],
+            "links": []
+          },
+          {
+            "text": "Run Pearson OnVUE system check: camera, mic, ID, room scan",
+            "tags": ["key"],
+            "links": [
+              { "label": "OnVUE system check", "url": "https://home.pearsonvue.com/Clients/ServiceNow/OnVUE-systems-test.aspx" },
+              { "label": "Pearson VUE servicenow", "url": "https://www.pearsonvue.com/us/en/servicenow.html" }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "FRI — EXAM DAY",
+        "tasks": [
+          {
+            "text": "Take the CSA exam — 60 questions, 90 minutes, pass at 70% (42/60)",
+            "tags": ["key"],
+            "links": [
+              { "label": "Exam info", "url": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" }
+            ]
+          },
+          {
+            "text": "Remember: closed-book exam — docs.servicenow.com is NOT available",
+            "tags": ["key"],
+            "links": []
+          }
+        ]
+      }
+    ]
+  }
+]
