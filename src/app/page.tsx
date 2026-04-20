@@ -36,7 +36,7 @@ export default function Home() {
       <Header overallPct={hydrated ? pct : 0} />
       <StatsBar />
       <ProgressBar done={hydrated ? done : 0} total={total} pct={hydrated ? pct : 0} />
-      <div className="grid grid-cols-2 gap-5 px-10 pb-10 max-[900px]:grid-cols-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 px-4 sm:px-6 md:px-10 pb-8 md:pb-10">
         {weeks.map((week, wi) => (
           <WeekCard
             key={week.id}

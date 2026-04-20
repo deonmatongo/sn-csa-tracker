@@ -18,34 +18,26 @@ export default function Footer({ onReset, onExport, onImport }: FooterProps) {
     input.click();
   };
 
+  const btnCls = "font-mono text-[11px] text-[#4a5e7a] bg-transparent border border-[#1e2d47] rounded-md px-3.5 py-1.5 cursor-pointer tracking-wide transition-all hover:text-[#8a9bb5] hover:border-[#2a3f5c] active:scale-95";
+
   return (
-    <footer className="border-t border-[#1e2d47] px-10 py-5 flex items-center justify-between gap-4 flex-wrap">
-      <span className="text-xs text-[#4a5e7a]">
+    <footer className="border-t border-[#1e2d47] px-4 sm:px-6 md:px-10 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <span className="text-xs text-[#4a5e7a] leading-relaxed">
         Progress saved as JSON in browser ·{' '}
         <a href="https://www.pearsonvue.com/us/en/servicenow.html" target="_blank" rel="noopener noreferrer" className="text-[#0099ff] no-underline hover:underline">
           Book via Pearson VUE ↗
         </a>
         {' · '}
         <a href="https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?achievement_id=38e2296493cdf9d0fb94b4886cba10ba&id=amap_detail" target="_blank" rel="noopener noreferrer" className="text-[#0099ff] no-underline hover:underline">
-          Now Learning portal ↗
+          Now Learning ↗
         </a>
       </span>
-      <div className="flex items-center gap-2">
-        <button
-          onClick={onExport}
-          className="font-mono text-[11px] text-[#4a5e7a] bg-transparent border border-[#1e2d47] rounded-md px-3.5 py-1.5 cursor-pointer tracking-wide transition-all hover:text-[#8a9bb5] hover:border-[#2a3f5c]"
-        >
-          export json
-        </button>
-        <button
-          onClick={handleImportClick}
-          className="font-mono text-[11px] text-[#4a5e7a] bg-transparent border border-[#1e2d47] rounded-md px-3.5 py-1.5 cursor-pointer tracking-wide transition-all hover:text-[#8a9bb5] hover:border-[#2a3f5c]"
-        >
-          import json
-        </button>
+      <div className="flex items-center gap-2 flex-wrap">
+        <button onClick={onExport} className={btnCls}>export json</button>
+        <button onClick={handleImportClick} className={btnCls}>import json</button>
         <button
           onClick={() => { if (confirm('Reset all progress? This cannot be undone.')) onReset(); }}
-          className="font-mono text-[11px] text-[#4a5e7a] bg-transparent border border-[#1e2d47] rounded-md px-3.5 py-1.5 cursor-pointer tracking-wide transition-all hover:text-[#8a9bb5] hover:border-[#2a3f5c]"
+          className={btnCls}
         >
           reset progress
         </button>

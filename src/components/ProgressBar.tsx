@@ -8,7 +8,7 @@ interface ProgressBarProps {
 
 export default function ProgressBar({ done, total, pct }: ProgressBarProps) {
   return (
-    <div className="px-10 pt-6">
+    <div className="px-4 sm:px-6 md:px-10 pt-5 md:pt-6">
       <div className="flex justify-between items-center mb-2">
         <span className="font-mono text-xs text-[#8a9bb5] tracking-widest">OVERALL PROGRESS</span>
         <span className="font-mono text-sm font-bold text-[#00d4aa]">{done} / {total} tasks</span>

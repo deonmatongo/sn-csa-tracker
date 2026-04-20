@@ -27,11 +27,11 @@ const resources = [
 
 export default function ResourcesSection() {
   return (
-    <div className="px-10 pb-10">
+    <div className="px-4 sm:px-6 md:px-10 pb-8 md:pb-10">
       <div className="font-mono text-[11px] uppercase tracking-widest text-[#4a5e7a] mb-4">
         Essential resources
       </div>
-      <div className="grid grid-cols-4 gap-3 max-[900px]:grid-cols-2 max-[560px]:grid-cols-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
         {resources.map((r) => (
           <a
             key={r.url}

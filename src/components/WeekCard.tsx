@@ -63,18 +63,18 @@ export default function WeekCard({ week, weekIndex, tasks, onToggle, hydrated }:
   return (
     <div className="bg-[#111827] border border-[#1e2d47] rounded-2xl overflow-hidden">
       <button
-        className="w-full px-5 py-4 flex items-center gap-3 border-b border-[#1e2d47] cursor-pointer hover:bg-white/[0.02] transition-colors text-left"
+        className="w-full px-4 sm:px-5 py-3.5 sm:py-4 flex items-center gap-2.5 sm:gap-3 border-b border-[#1e2d47] cursor-pointer hover:bg-white/[0.02] transition-colors text-left"
         onClick={() => setOpen((o) => !o)}
       >
-        <span className={`font-mono text-[10px] font-bold tracking-widest px-2.5 py-0.5 rounded-full border whitespace-nowrap ${colors.badge}`}>
+        <span className={`font-mono text-[9px] sm:text-[10px] font-bold tracking-widest px-2 sm:px-2.5 py-0.5 rounded-full border whitespace-nowrap flex-shrink-0 ${colors.badge}`}>
           {week.num}
         </span>
-        <div className="flex-1 text-[13px] font-medium text-[#e8edf5] leading-snug">{week.title}</div>
-        <div className="flex items-center gap-2.5">
-          <span className="font-mono text-[11px] text-[#4a5e7a]">
+        <div className="flex-1 min-w-0 text-[12px] sm:text-[13px] font-medium text-[#e8edf5] leading-snug truncate">{week.title}</div>
+        <div className="flex items-center gap-2 flex-shrink-0">
+          <span className="font-mono text-[11px] text-[#4a5e7a] tabular-nums">
             {hydrated ? `${doneTasks}/${allTasks}` : `0/${allTasks}`}
           </span>
-          <div className="w-12 h-1 bg-[#1a2236] rounded-full overflow-hidden">
+          <div className="w-10 sm:w-12 h-1 bg-[#1a2236] rounded-full overflow-hidden">
             <div
               className={`h-full rounded-full transition-all duration-500 ${colors.bar}`}
               style={{ width: hydrated ? `${pct}%` : '0%' }}
@@ -87,7 +87,7 @@ export default function WeekCard({ week, weekIndex, tasks, onToggle, hydrated }:
       </button>
 
       {open && (
-        <div className="px-5 pb-2">
+        <div className="px-3 sm:px-5 pb-2">
           {week.days.map((day, di) => (
             <div key={di} className="py-3.5 border-b border-[#1e2d47] last:border-0">
               <div className="font-mono text-[10px] font-bold text-[#4a5e7a] uppercase tracking-widest mb-2.5">
@@ -99,7 +99,7 @@ export default function WeekCard({ week, weekIndex, tasks, onToggle, hydrated }:
                 return (
                   <div
                     key={ti}
-                    className="flex items-start gap-2.5 py-1.5 cursor-pointer group"
+                    className="flex items-start gap-2.5 py-2 sm:py-1.5 cursor-pointer group"
                     onClick={() => onToggle(k)}
                   >
                     <div
